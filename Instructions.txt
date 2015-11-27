@@ -1,3 +1,23 @@
 Exercises 5.9 (page 206), 5.22 (page 208), 5.35 (page 210)
 
+5.9) Parking Charges
+A parking garage charges a $2.00 minimum fee to park for up to three hours and an additional $0.50 per hour for each hour or part therof over three hours. The maximum charge for any given 24-hour period is $10.00. Assume that no car parks for longer than 24 hours at a time. Write a program taht will calculate and print the parking charges for each of the three customers who parked their cars in this garage yesterday. You should enter the hours parked for each customer. Your program shoudl print the results in a tabular format, and should calculate and print the total of yesterday's receipts. The program shoudl use the function calculateCharges to determine the charge for each customer. Your outputs should appear in the following format:
+Car	Hours	Charge
+1	1.5	2.00
+2	4.0	2.50
+3	24.0	10.00
+TOTAL	29.5	14.50
 
+5.22) Separating Digits
+Write program segments that accomplish each of the following:
+a) Calculate the integer part of the quotient when integer a is divided by integer b
+b) Calculate the integer remainder when integer a is divided by integer b
+c) Use the program pieces developed in a) and b) to write a function that inputs an integer between 1 and 32767 and prints it as a series of digits, with two spaces between each digit. For example the integer 4562 should be printed as:
+4  5  6  2
+
+5.35) Fibonacci 
+The Fibonacci series 
+0, 1, 1, 2, 3, 5, 8, 13, 21 ...
+begins with the terms 0 and 1 and has the property that each succeeding term is the sum of the two preceding terms.
+a) Write a nonrecursive function fibonacci(n) that calculates the nth Fibonacci number. Use unsigned int for the function's parameters and unsigned long long int for its return type. 
+b) Determine the largest Fibonacci number that can be printed on your system
