@@ -25,7 +25,8 @@ int main(){
 		scanf("%lf",&entries[p].hours);
 		entries[p].charge=calculateCharges(ceil(entries[p].hours)); //
 		if(entries[p].charge==INVALID_ERR){
-			printf("The value you entered for customer %d was invalid. Please try again:\n",p--);
+			printf("The value you entered for customer %d was invalid. Please try again:\n",
+				(p--)+1)); // decerement and user friendly customer numbering
 		} else {
 			totalHours+=entries[p].hours;
 			totalCharges+=entries[p].charge;
